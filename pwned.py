@@ -17,9 +17,9 @@ url = 'https://api.pwnedpasswords.com/range/'
 string = getpass.getpass('Enter Password: ')
 
 
-print("Reading the data if any :\n\
-<SHA1 hash of entered password> : <Number of people who have used it>\n\
-(https://github.com/Shishir-Ashok/pwned-password.git)\n")
+print("(https://github.com/Shishir-Ashok/pwned-password.git)\n\
+Reading the data if any :\n\
+<SHA1 hash of entered password> : <Number of people who have used it>\n")
 
 def search(first_half,second_half):
 	flag = 0
